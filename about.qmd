@@ -1,0 +1,24 @@
+---
+title: "About"
+---
+
+# Biography
+
+Sérgio worked at the Department of Demographic and Social Statistics of [Statistics Portugal](http://www.ine.pt) where he was responsible for the production of the [Well-being index](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indbemestar) of Portugal. He worked in Statistics Portugal since 1990, mainly on statistical metadata, regional statistics studies and official statistics dissemination.
+
+## Education
+
+- Degree in Economics (1977)  
+  Faculdade de Economia do Porto
+
+- Degree in Sociology (2000)  
+  ISCTE-IUL
+
+- Provas de Aptidão Pedagógica e Capacidade Científica (2008)  
+  Faculdade de Economia do Porto
+
+## Research Interests
+
+- Computational Social Sciences
+- Well-being and Quality of Life
+- Pensions and Retirement
