@@ -1,33 +1,22 @@
 ---
 title: "Sérgio Bacelar"
+image: portrait.jpg
+about: # https://quarto.org/docs/websites/website-about.html
+  template: trestles
+  image-shape: round
 ---
 
-:::{.column-page}
+
 # Welcome
 
 Sérgio is currently a [PhD candidate of Complexity Sciences](http://complexsystemsstudies.eu/) (FCUL-University of Lisbon/ISCTE-University Institute of Lisbon) and he has a degree in Economics by [U. Porto](https://sigarra.up.pt/up/en/WEB_BASE.GERA_PAGINA?p_pagina=home) and in Sociology by [University Institute of Lisbon](http://iscte-iul.pt/en/home.aspx).
 
-:::
 
-:::{.column-page}
 # Skills
 
-::: {.grid}
 
-::: {.g-col-4}
 ### R Programming
-{{< fa brands r-project >}} 90%
-:::
 
-::: {.g-col-4}
 ### Statistics
-{{< fa chart-line >}} 100%
-:::
 
-::: {.g-col-4}
 ### Photography
-{{< fa camera-retro >}} 10%
-:::
-
-:::
-:::
