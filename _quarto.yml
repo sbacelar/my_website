@@ -19,12 +19,12 @@ website:
       - contact.qmd
     tools:
       - icon: github
-        href: https://github.com/yourusername
+        href: https://github.com/sbacelar
   page-footer: 
     left: "© 2024 Sérgio Bacelar"
     right: 
       - icon: github
-        href: https://github.com/yourusername
+        href: https://github.com/sbacelar
 
 format:
   html:
