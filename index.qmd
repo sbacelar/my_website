@@ -9,14 +9,11 @@ about: # https://quarto.org/docs/websites/website-about.html
 
 # Welcome
 
-Sérgio is currently a [PhD candidate of Complexity Sciences](http://complexsystemsstudies.eu/) (FCUL-University of Lisbon/ISCTE-University Institute of Lisbon) and he has a degree in Economics by [U. Porto](https://sigarra.up.pt/up/en/WEB_BASE.GERA_PAGINA?p_pagina=home) and in Sociology by [University Institute of Lisbon](http://iscte-iul.pt/en/home.aspx).
+Sérgio is currently a PhD candidate of Complexity Sciences ([FCUL-University of Lisbon](https://ciencias.ulisboa.pt/en)/[ISCTE-University Institute of Lisbon](https://www.iscte-iul.pt/)) and he has a degree in Economics by [U. Porto](https://sigarra.up.pt/up/en/WEB_BASE.GERA_PAGINA?p_pagina=home) and in Sociology by [University Institute of Lisbon](http://iscte-iul.pt/en/home.aspx).
 
 
 # Skills
 
-
-### R Programming
-
-### Statistics
-
-### Photography
+- R Programming
+- Statistics
+- [Photography](https://www.flickr.com/photos/sbac54/)

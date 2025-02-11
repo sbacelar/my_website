@@ -34,7 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -132,7 +131,6 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
-   
   <ul>
   <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a></li>
   <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
@@ -140,52 +138,37 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
-
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="portrait.jpg" class="about-image
+  round " style="height: 20em; width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Sérgio Bacelar</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
-
-
 </header>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
 
-
-<section id="welcome" class="level1 column-page">
+<section id="welcome" class="level1">
 <h1>Welcome</h1>
-<p>Sérgio is currently a <a href="http://complexsystemsstudies.eu/">PhD candidate of Complexity Sciences</a> (FCUL-University of Lisbon/ISCTE-University Institute of Lisbon) and he has a degree in Economics by <a href="https://sigarra.up.pt/up/en/WEB_BASE.GERA_PAGINA?p_pagina=home">U. Porto</a> and in Sociology by <a href="http://iscte-iul.pt/en/home.aspx">University Institute of Lisbon</a>.</p>
+<p>Sérgio is currently a PhD candidate of Complexity Sciences (<a href="https://ciencias.ulisboa.pt/en">FCUL-University of Lisbon</a>/<a href="https://www.iscte-iul.pt/">ISCTE-University Institute of Lisbon</a>) and he has a degree in Economics by <a href="https://sigarra.up.pt/up/en/WEB_BASE.GERA_PAGINA?p_pagina=home">U. Porto</a> and in Sociology by <a href="http://iscte-iul.pt/en/home.aspx">University Institute of Lisbon</a>.</p>
 </section>
-<section id="skills" class="level1 column-page">
+<section id="skills" class="level1">
 <h1>Skills</h1>
-<div class="grid">
-<section id="r-programming" class="level3 g-col-4">
-<h3 class="anchored" data-anchor-id="r-programming">R Programming</h3>
-<p>{{&lt; fa brands r-project &gt;}} 90%</p>
+<ul>
+<li>R Programming</li>
+<li>Statistics</li>
+<li><a href="https://www.flickr.com/photos/sbac54/">Photography</a></li>
+</ul>
+
+
 </section>
-<section id="statistics" class="level3 g-col-4">
-<h3 class="anchored" data-anchor-id="statistics">Statistics</h3>
-<p>{{&lt; fa chart-line &gt;}} 100%</p>
-</section>
-<section id="photography" class="level3 g-col-4">
-<h3 class="anchored" data-anchor-id="photography">Photography</h3>
-<p>{{&lt; fa camera-retro &gt;}} 10%</p>
-</section>
+</main></div>
 </div>
-</section>
-
-
-
-</main> <!-- /main -->
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -206,13 +189,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
