@@ -1,52 +1,27 @@
-name: Publish Website
-
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
+  push:
+    branches: main
+
+name: Quarto Publish
 
 jobs:
-  publish:
+  build-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Allows pushing to gh-pages
-      pages: write     # Required for GitHub Pages deployment
-      id-token: write  # Needed for authentication
-
+      contents: write
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4  # Updated to latest version
+        uses: actions/checkout@v4
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
-          version: pre-release
-
-      - name: Install R
-        uses: r-lib/actions/setup-r@v2
-        with:
-          r-version: '4.4.2'
-
-      - name: Render Site
-        run: |
-          quarto render  # Ensure this generates `docs/index.html`
-
-      - name: Upload artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v2  # Correct action for GitHub Pages
-        with:
-          name: github-pages  # IMPORTANT: GitHub Pages expects this name
-          path: docs  # Ensure this is the correct output directory
-
-  deploy:
-    needs: publish
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-
-    steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4  # Latest GitHub Pages deploy action
-
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
