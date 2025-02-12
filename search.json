@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "experience.html",
-    "href": "experience.html",
-    "title": "Experience",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sérgio Bacelar",
     "section": "",
-    "text": "Senior Statistician\n1990 - Present\n\nResponsible for the Well-being index production\nWork on statistical metadata\nRegional statistics studies\nOfficial statistics dissemination\n\n\n\n\nProfessor\nFaculty of Economics, University of Porto\n\nTeaching and researching for more than 20 years\nAreas: social sciences methods, statistics, organizational behavior"
-  },
-  {
-    "objectID": "experience.html#professional-experience",
-    "href": "experience.html#professional-experience",
-    "title": "Experience",
-    "section": "",
-    "text": "Senior Statistician\n1990 - Present\n\nResponsible for the Well-being index production\nWork on statistical metadata\nRegional statistics studies\nOfficial statistics dissemination\n\n\n\n\nProfessor\nFaculty of Economics, University of Porto\n\nTeaching and researching for more than 20 years\nAreas: social sciences methods, statistics, organizational behavior"
+    "text": "Welcome\nSérgio is currently a PhD candidate of Complexity Sciences (FCUL-University of Lisbon/ISCTE-University Institute of Lisbon).\n\n\nSkills\n\nR Programming\nStatistics\nPhotography"
   },
   {
     "objectID": "about.html",
@@ -35,10 +28,17 @@
     "text": "Computational Social Sciences\nWell-being and Quality of Life\nPensions and Retirement"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Sérgio Bacelar",
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Experience",
     "section": "",
-    "text": "Welcome\nSérgio is currently a PhD candidate of Complexity Sciences (FCUL-University of Lisbon/ISCTE-University Institute of Lisbon).\n\n\nSkills\n\nR Programming\nStatistics\nPhotography"
+    "text": "Senior Statistician\n1990 - Present\n\nResponsible for the Well-being index production\nWork on statistical metadata\nRegional statistics studies\nOfficial statistics dissemination\n\n\n\n\nProfessor\nFaculty of Economics, University of Porto\n\nTeaching and researching for more than 20 years\nAreas: social sciences methods, statistics, organizational behavior"
+  },
+  {
+    "objectID": "experience.html#professional-experience",
+    "href": "experience.html#professional-experience",
+    "title": "Experience",
+    "section": "",
+    "text": "Senior Statistician\n1990 - Present\n\nResponsible for the Well-being index production\nWork on statistical metadata\nRegional statistics studies\nOfficial statistics dissemination\n\n\n\n\nProfessor\nFaculty of Economics, University of Porto\n\nTeaching and researching for more than 20 years\nAreas: social sciences methods, statistics, organizational behavior"
   }
 ]
