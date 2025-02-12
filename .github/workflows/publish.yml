@@ -9,10 +9,13 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write  # Ensures the action has permission to push
+      pages: write     # Needed for GitHub Pages deployment
+      id-token: write  # Required for authentication
+
     steps:
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # Updated to the latest version
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -26,15 +29,21 @@ jobs:
 
       - name: Render Site
         run: |
-          quarto render  # Ensure this generates docs/index.html
+          quarto render  # This generates the site files
 
-      - name: Publish to GitHub Pages
-        uses: actions/upload-pages-artifact@v1
+      - name: Upload artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v2  # Updated version
         with:
-          path: docs  # Ensure Quarto is placing index.html in this folder
+          path: docs  # Ensure this matches your Quarto output directory
 
+  deploy:
+    needs: publish
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+
+    steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+        uses: actions/deploy-pages@v4  # Updated to the latest version
 
