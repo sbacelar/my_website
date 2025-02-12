@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sbacelar.github.io/my_website/contact.html</loc>
-    <lastmod>2025-02-12T09:46:16.600Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sbacelar.github.io/my_website/experience.html</loc>
-    <lastmod>2025-02-12T09:46:16.607Z</lastmod>
-  </url>
-  <url>
     <loc>https://sbacelar.github.io/my_website/teaching.html</loc>
-    <lastmod>2025-02-12T09:46:16.607Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sbacelar.github.io/my_website/about.html</loc>
-    <lastmod>2025-02-12T09:46:16.600Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sbacelar.github.io/my_website/talks.html</loc>
-    <lastmod>2025-02-12T09:46:16.607Z</lastmod>
+    <lastmod>2025-02-11T17:27:56.375Z</lastmod>
   </url>
   <url>
     <loc>https://sbacelar.github.io/my_website/publications.html</loc>
-    <lastmod>2025-02-12T09:46:16.607Z</lastmod>
+    <lastmod>2025-02-11T17:27:56.375Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sbacelar.github.io/my_website/experience.html</loc>
+    <lastmod>2025-02-11T17:27:56.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sbacelar.github.io/my_website/about.html</loc>
+    <lastmod>2025-02-11T17:27:56.328Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sbacelar.github.io/my_website/contact.html</loc>
+    <lastmod>2025-02-11T17:27:56.328Z</lastmod>
   </url>
   <url>
     <loc>https://sbacelar.github.io/my_website/index.html</loc>
-    <lastmod>2025-02-12T09:46:16.607Z</lastmod>
+    <lastmod>2025-02-12T12:24:00.975Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sbacelar.github.io/my_website/talks.html</loc>
+    <lastmod>2025-02-11T17:27:56.375Z</lastmod>
   </url>
 </urlset>
