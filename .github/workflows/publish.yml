@@ -9,9 +9,9 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Ensures the action has permission to push
-      pages: write     # Needed for GitHub Pages deployment
-      id-token: write  # Required for authentication
+      contents: write  # Allows pushing to gh-pages
+      pages: write     # Required for GitHub Pages deployment
+      id-token: write  # Needed for authentication
 
     steps:
       - name: Check out repository
@@ -29,12 +29,12 @@ jobs:
 
       - name: Render Site
         run: |
-          quarto render  # This generates the site files
+          quarto render  # Ensures the website is built properly
 
-      - name: Upload artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v2  # Updated version
+      - name: Upload site to GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v2  # Replaces deprecated upload-artifact
         with:
-          path: docs  # Ensure this matches your Quarto output directory
+          path: docs  # Ensure Quarto outputs to this directory
 
   deploy:
     needs: publish
@@ -46,4 +46,5 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4  # Updated to the latest version
+
 
